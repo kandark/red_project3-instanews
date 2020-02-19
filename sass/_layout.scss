@@ -1,0 +1,90 @@
+//media queries
+#multimedias {
+        display: grid;
+        grid-column-gap: none;
+
+        width: 100%;
+      }
+  @media screen and (max-width: 480px) {
+     body{
+       background: blue;
+     }
+     header{
+     display: flex;
+     flex-direction: column;
+      margin-top: 10vh;
+      justify-content: center;
+      align-items: center;
+      height: 50vh; 
+    }
+    #sel{
+      margin-left: 40px;
+      margin-top: 50px;
+      text-align: center;
+      
+    }
+    #multimedias{
+        grid-template-columns: auto;
+           img{
+              width: 100%;
+              background-size: 100%;
+              height: 200px;
+              }
+    
+     .abstract{
+        	   background-color: rgba(20, 16, 16, 0.2);
+        	   color: white;
+          	   position: relative;
+               margin-top: -94px;
+        	   font-family: "OpenSans-Light";
+               font-size: 16px;
+               }
+             }
+}
+  @media screen and (min-width: 480px) {
+    #sel{
+      margin-left: 40px;
+      margin-top: 90px;
+      text-align: center;
+      
+    }
+ #multimedias{
+                grid-template-columns: auto auto auto;
+                img{
+                   width: 100%;
+                   background-size: 100%;
+                   height: 250px;
+                   }
+          .abstract{
+                   background-color: rgba(20, 16, 16, 0.2);
+                   color: white;
+                   position: relative;
+                   margin-top: -115px;
+                   font-family: "OpenSans-Light";
+                   font-size: 16px;
+                   }
+            }
+    
+    }
+  
+  @media screen and (min-width: 800px) {
+     
+    #multimedias{
+                 grid-template-columns: auto auto auto auto;
+                 img{
+                    width: 100%;
+                    background-size: 100%;
+                    height: 300px;
+                     }
+            .abstract{
+                     background-color: rgba(20, 16, 16, 0.2);
+                     color: white;
+                     position: relative;
+                     margin-top: -115px;                       
+                     font-family: "OpenSans-Light";
+                     font-size: 16px;
+        
+                     }
+                    
+                  }
+  }

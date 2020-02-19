@@ -3,8 +3,9 @@
 $(function() {
     $("#select").on("change", function(event) {
       const $selected = $(event.target).val();
-      
-      
+   
+      const section = $("#sections").val();
+      $("header").addClass("mover");
       //console.log(`You have selected ${$selected}`)
      $.ajax({
         method: 'GET',

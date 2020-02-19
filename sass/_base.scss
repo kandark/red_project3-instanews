@@ -57,268 +57,82 @@ table {
 	border-spacing: 0;
 }
 //style css import****************************************************
-body{
-	
-	background:black;
-	
-	
-	
-}
-header{
-	margin: 150px;
-	display: flex;
 
-	color: white;
-	font-size: 20px;
-
-}
-header p{
-	
-	font-size: 20px;
-}
-#select{
-	font-size: 18px;
-}
-
-
-  
-#multimedias img{
-	
-
-
-	text-align: center;
-     width: 100%;
-	height: 300px;	
-	
-	grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-	grid-row-end: 3;
-	background-size: 100%;
-	position: relative;
-  }
-.abstract{
-	background-color: rgba(20, 16, 16, 0.2);
-	color: white;
-	position: relative;
-	margin-top: -90px;
-	font-family: "OpenSans-Light";
-	font-size: 20px;
-
-
-}
-  .abstract a{
-	  text-decoration: none;
-	  
-	  font-family: Arial, Helvetica, sans-serif;
-  }
-
-  footer{
-	  
-
-	  height: 150px;
-	  width: 100%;
-
-  }
-  footer p{
-	  color: gray;
-  }
-  .link{
-	  text-decoration: none;
-  }
-  @media screen and(min-width:300px){
-	  body{
-		  width: 100%;
-		  
-		  
-	margin: 10px;
-	
-		
-	  }
-	header{
-		
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
-		flex-wrap: wrap;
-		margin: 0;
-		color: white;
-		font-size: 15px;
-	
-	}
-	#multimedias {
+	body{
+		background: black;
+		font-family: "OpenSans-Light";
+		font-size: 16px;
 		display: grid;
 		grid-template-columns: auto;
-		width: 100%;
-	  }
-	  .abstract{
-		
-		position: relative;
-		margin-top: -110px;
-		font-size: 18px;
-	
-	
-	}
-	#select{
-		font-size: 15px;
-	}
-	footer {
-		position: relative;
-	  margin-top:70px;
-		color:gray;
-		height: 80px;
-		
-  
+		height: 100vh;
+		margin: 0;
+		padding: 0;
 	}
 	
+	header{
+		display: flex;
+		align-self: start;
+		align-items: flex-start;
+		
+		height: 45vh;
+		margin-top: 10vh;		
 	}
-	@media screen and(max-width:320px){
-		body{
-			width: 100%;
-			
-		
-	  margin: 10px;
-	  
-			
-		}
-		
-	  header{
-		  
-		  display: flex;
-		  justify-content: center;
-		  flex-direction: column;
-		  align-items: center;
-		  flex-wrap: wrap;
-		  margin: 0;
-		  color: white;
-		  font-size: 15px;
-	  
-	  }
-	  #multimedias {
-		  display: grid;
-		  grid-template-columns: auto;
-		  width: 100%;
-		}
-		.abstract{
-		  
-		  position: relative;
-		  margin-top: -110px;
-		  font-size: 18px;
-		  
-		  font-family: Arial, Helvetica, sans-serif;
-	  
-	  
-	  }
-	  #select{
-		  font-size: 15px;
-	  }
-	  footer {
-		  position: relative;
-		margin-top:70px;
-		  color:gray;
-		  height: 80px;
-		  
-	
-	  }
-	  footer {
-
-		align-items: center;
-		margin-left: 40px;
-		
+	#sel{
+		margin-top: -20vh;
+		margin-left: 40vh;
+		color: white;
 	}
-	  
-	  }
-	  @media screen and(min-width:320px){
-		footer p{
-			text-align: center;
-			
-	  
-		}
-		}
-	 
-	@media screen and(min-width:600px){
-		body{
-			width: 100%;
-			
-	  margin: 10px;
-	  
-		
-		}
-		header{
-		
-			display: flex;
-			flex-direction: initial;
-			justify-content: flex-start;
-			margin: 0;
-			color: white;
-			font-size: 15px;
-		
-		}
-		
-#multimedias {
-	
-	display: grid;
-	grid-template-columns: auto auto auto;
-	
-	
-    
-  }
-  .abstract{
-		
-	position: relative;
-	margin-top: -120px;
-	font-size: 18px;
-	
-	font-family: Arial, Helvetica, sans-serif;
-
-
-}
-footer p{
-	text-align: center;
-	
-}
-
-	}
-	 
-	@media screen and(min-width:1240px){
-		body{
-			width: 100%;
-			
-	  margin: 10px;
-	  
-	
-		}
-		header{
-		
-			display: flex;
-			flex-direction: initial;
-			justify-content: flex-start;
-			margin: 0;
-			color: white;
-			font-size: 15px;
-		
-		}
-		#multimedias {
-	
-			display: grid;
-			grid-template-columns: auto auto auto auto;
-			
-			
-			
-		  }
-		  #sel{
-			  margin-left: 90px;
-			  margin-top: -50px;
-		  }
-		  #logo{
-			  margin: 50px;
-		  }
-		  footer {
-			  display: flex;
-			  flex-direction: initial;
+	.link{
+			  text-decoration: none;
 			  font-family: Arial, Helvetica, sans-serif;
-			
-			
-		}
-	}
+		  }
+	
+
+  
+// header{
+// 	margin: 150px;
+// 	display: flex;
+
+// 	color: white;
+// 	font-size: 20px;
+
+// }
+// header p{
+	
+// 	font-size: 20px;
+// }
+// #select{
+// 	font-size: 18px;
+// }
+
+
+  
+// #multimedias img{
+	
+
+
+// 	text-align: center;
+//      width: 100%;
+// 	height: 300px;	
+	
+// 	grid-column-start: 1;
+//     grid-column-end: 3;
+//     grid-row-start: 1;
+// 	grid-row-end: 3;
+// 	background-size: 100%;
+// 	position: relative;
+//   }
+
+
+
+
+//   footer{
+	  
+
+// 	  height: 150px;
+// 	  width: 100%;
+
+//   }
+//   footer p{
+// 	  color: gray;
+//   }
