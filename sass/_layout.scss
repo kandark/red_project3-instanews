@@ -39,6 +39,11 @@
                }
              }
 }
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
   @media screen and (min-width: 480px) {
     #sel{
       margin-left: 40px;
@@ -85,4 +90,9 @@
                      }
                     
                   }
-  }
+                  footer{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    }
+                }
