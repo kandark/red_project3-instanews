@@ -7,6 +7,7 @@ $(function () {
     const section = $("#sections").val();
     $("header").addClass("mover");
     $(".loader-gif").css("display", "block");
+    $("#multimedias").empty();
     $(".loader-gif").addClass("loader-gif2");
     //console.log(`You have selected ${$selected}`)
     $.ajax({
