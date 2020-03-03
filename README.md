@@ -1,13 +1,13 @@
 # instanewsApp-project3
-Requirements:
+# Requirements:
 
 
-# GIT/GITHUB
-# HTML
-# SASS
-# JAVASCRIPT
-# JQUERY
-# AJAX
-# JSON
-# GULP
+* GIT/GITHUB
+* HTML
+* SASS
+* JAVASCRIPT
+* JQUERY
+* AJAX
+* JSON
+* GULP
 
