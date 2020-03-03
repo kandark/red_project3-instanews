@@ -4,11 +4,11 @@
 */
 @font-face {
   font-family: "OpenSans-Light";
-  src: url("../assets/fonts/OpenSans-Light.ttf"); }
+  src: url("/fonts/OpenSans-Light.ttf"); }
 
 @font-face {
   font-family: "OpenSans-Bold";
-  src: url("../assets/fonts/OpenSans-Bold.ttf"); }
+  src: url("/fonts/OpenSans-Bold.ttf"); }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -112,7 +112,7 @@ footer {
   width: 100%; }
 
 footer p {
-  color: gray; }
+  color: #c2c2c2; }
 
 .mover {
   width: 100%;
@@ -121,11 +121,15 @@ footer p {
   -webkit-animation: mymove 0s;
           animation: mymove 0s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards; }
+          animation-fill-mode: forwards; 
+        
+
+}
 
 .mover #logo {
   width: 100%;
-  height: 90px; }
+  height: 90px; 
+}
 
 .mover #sel {
   position: relative;

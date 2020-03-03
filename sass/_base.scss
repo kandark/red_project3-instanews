@@ -5,11 +5,11 @@
   
 @font-face{
     font-family: "OpenSans-Light";
-    src: url("../assets/fonts/OpenSans-Light.ttf");
+    src: url("/fonts/OpenSans-Light.ttf");
 }
 @font-face{
     font-family: "OpenSans-Bold";
-    src: url("../assets/fonts/OpenSans-Bold.ttf");
+    src: url("/fonts/OpenSans-Bold.ttf");
 }
 
 
@@ -67,6 +67,7 @@ table {
 		height: 100vh;
 		margin: 0;
 		padding: 0;
+		
 	}
 	
 	header{
@@ -118,5 +119,5 @@ table {
 
   }
   footer p{
-	  color: gray;
+	  color: #c2c2c2;
   }
